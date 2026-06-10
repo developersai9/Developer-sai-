@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Developer Sai — Full Stack Developer. I Build Digital Experiences That Inspire. Premium cyberpunk portfolio." />
+  <meta property="og:title" content="Developer Sai | Full Stack Developer" />
+  <meta property="og:description" content="Premium full-stack development services — web, app, e-commerce & more." />
+  <title>Developer Sai | Full Stack Developer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+
+  <!-- Google Fonts — MUST be first -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- DevIcons — Tech Stack -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================================================
+     PARTICLES CANVAS
+     ================================================ -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- Mouse Glow -->
+<div class="mouse-glow" id="mouse-glow"></div>
+
+<!-- ================================================
+     NAVBAR
+     ================================================ -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="nav-logo">
+      <div class="nav-logo-mark">DS</div>
+      <span class="nav-brand">DEVELOPER SAI</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#tech">Tech Stack</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#maintenance">Maintenance</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </div>
+
+    <div class="nav-hamburger" id="hamburger" role="button" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="nav-mobile" id="mobile-menu">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#tech">Tech Stack</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#maintenance">Maintenance</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- ================================================
+     HERO SECTION
+     ================================================ -->
+<section id="home">
+  <div class="container hero-grid">
+
+    <!-- Left: Text -->
+    <div style="display:flex; flex-direction:column; gap:1.25rem;">
+      <div class="hero-badge reveal">
+        <div class="hero-badge-dot"></div>
+        <span>Full Stack Developer</span>
+      </div>
+
+      <h1 class="hero-title reveal" data-delay="100">
+        <span class="line1">HELLO, I'M</span><br />
+        <span class="line2">DEVELOPER SAI</span>
+      </h1>
+
+      <p class="hero-subtitle reveal" data-delay="200">
+        I Build Digital Experiences That Inspire. Turning complex problems into elegant, premium solutions.
+      </p>
+
+      <div class="hero-btns reveal" data-delay="300">
+        <a href="#contact" class="btn-primary">
+          Hire Me
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="#projects" class="btn-outline-secondary">View Portfolio</a>
+        <a href="#contact" class="btn-outline-primary">Get Free Quote</a>
+      </div>
+
+      <div class="hero-avail reveal" data-delay="400">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span>Available for Freelance Projects Worldwide</span>
+      </div>
+    </div>
+
+    <!-- Right: Hero Image -->
+    <div class="hidden-mobile" style="display:flex; align-items:center; justify-content:center;">
+      <div class="hero-img-wrap" id="hero-img-wrap">
+        <div class="hero-orbit1"></div>
+        <div class="hero-orbit2"></div>
+        <div class="hero-img-inner">
+          <img src="assets/images/hero-programmer.png" alt="Cyberpunk Programmer" loading="eager" />
+        </div>
+        <div class="hero-badge-float badge-react">&lt;React /&gt;</div>
+        <div class="hero-badge-float badge-node">{ NodeJS }</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scrolling Ticker -->
+  <div class="hero-ticker">
+    <div class="hero-ticker-inner">
+      APP DEVELOPMENT &nbsp;&bull;&nbsp; WEB DESIGNING &nbsp;&bull;&nbsp; GAME POSTER DESIGN &nbsp;&bull;&nbsp; E-COMMERCE WEBSITES &nbsp;&bull;&nbsp; FULL STACK SOLUTIONS &nbsp;&bull;&nbsp; APP DEVELOPMENT &nbsp;&bull;&nbsp; WEB DESIGNING &nbsp;&bull;&nbsp; GAME POSTER DESIGN &nbsp;&bull;&nbsp; E-COMMERCE WEBSITES &nbsp;&bull;&nbsp; FULL STACK SOLUTIONS &nbsp;&bull;&nbsp;
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     STATS SECTION
+     ================================================ -->
+<section class="section-alt" style="padding: 5rem 0; position:relative; z-index:10;">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="glass-card stat-card reveal" data-delay="0">
+        <div class="stat-value" data-count="50" data-suffix="+">50+</div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+      <div class="glass-card stat-card reveal" data-delay="80">
+        <div class="stat-value" data-count="30" data-suffix="+">30+</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="glass-card stat-card reveal" data-delay="160">
+        <div class="stat-value" data-count="10" data-suffix="+">10+</div>
+        <div class="stat-label">Technologies Mastered</div>
+      </div>
+      <div class="glass-card stat-card reveal" data-delay="240">
+        <div class="stat-value" data-count="99" data-suffix="%">99%</div>
+        <div class="stat-label">Client Satisfaction</div>
+      </div>
+      <div class="glass-card stat-card reveal" data-delay="320">
+        <div class="stat-value" style="background:linear-gradient(135deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">24/7</div>
+        <div class="stat-label">Support</div>
+      </div>
+      <div class="glass-card stat-card reveal" data-delay="400">
+        <div class="stat-value" data-count="2" data-suffix="+">2+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     SERVICES SECTION
+     ================================================ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text">Complete Digital Solutions</h2>
+      <p>Premium services tailored to elevate your business in the digital landscape.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="0">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+        </div>
+        <h3 class="service-title">Web Development</h3>
+        <p class="service-desc">High-performance, responsive websites built with modern frameworks.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="80">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect width="7" height="12" x="8.5" y="2" rx="1"/><path d="M6.5 17h11m-8 3.5h5m-2.5-3.5v3.5"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="12" x="8.5" y="2" rx="1"/><path d="M6.5 17h11m-8 3.5h5m-2.5-3.5v3.5"/></svg>
+        </div>
+        <h3 class="service-title">App Development</h3>
+        <p class="service-desc">Cross-platform mobile applications for iOS and Android.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="160">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        </div>
+        <h3 class="service-title">E-Commerce Websites</h3>
+        <p class="service-desc">Scalable online stores with secure payment gateways.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="240">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+        </div>
+        <h3 class="service-title">Full Stack Development</h3>
+        <p class="service-desc">End-to-end solutions from robust backends to dynamic frontends.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="320">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+        </div>
+        <h3 class="service-title">UI/UX Design</h3>
+        <p class="service-desc">Intuitive, premium user interfaces that engage and convert.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="400">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M6 11h4a2 2 0 0 1 0 4H8v2"/><path d="M6 16v1"/><rect width="20" height="20" x="2" y="2" rx="2" ry="2"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 11h4a2 2 0 0 1 0 4H8v2"/><path d="M6 16v1"/><rect width="20" height="20" x="2" y="2" rx="2" ry="2"/></svg>
+        </div>
+        <h3 class="service-title">Game Poster Design</h3>
+        <p class="service-desc">Eye-catching, cinematic promotional art for gaming projects.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="480">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="m3 11 19-9-9 19-2-8-8-2z"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 19-9-9 19-2-8-8-2z"/></svg>
+        </div>
+        <h3 class="service-title">Digital Marketing</h3>
+        <p class="service-desc">Data-driven campaigns to grow your brand's digital presence.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+      <div class="glass-card service-card tilt-card reveal" data-delay="560">
+        <div class="service-icon-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </div>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </div>
+        <h3 class="service-title">SEO Optimization</h3>
+        <p class="service-desc">Advanced strategies to rank higher and attract organic traffic.</p>
+        <a href="#contact" class="service-link">Explore <span>&#8594;</span></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     PROJECT SHOWCASE
+     ================================================ -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text-purple text-secondary">Project Showcase</h2>
+      <p>A selection of premium digital products built for forward-thinking brands.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="glass-card project-card tilt-card reveal" data-delay="0">
+        <div class="project-img">
+          <img src="assets/images/project-1.png" alt="E-Commerce Store" loading="lazy" />
+          <div class="project-img-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">E-Commerce Store</h3>
+          <p class="project-desc">Online shopping platform with advanced filtering and real-time inventory.</p>
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">MongoDB</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-demo" onclick="alert('Live demo coming soon!')">Live Demo</button>
+            <button class="btn-details" onclick="alert('Project details coming soon!')">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card project-card tilt-card reveal" data-delay="100">
+        <div class="project-img">
+          <img src="assets/images/project-2.png" alt="Business Management App" loading="lazy" />
+          <div class="project-img-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Business Management App</h3>
+          <p class="project-desc">Enterprise dashboard for tracking metrics, sales, and employee data.</p>
+          <div class="project-tags">
+            <span class="project-tag">Next.js</span>
+            <span class="project-tag">Tailwind</span>
+            <span class="project-tag">PostgreSQL</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-demo" onclick="alert('Live demo coming soon!')">Live Demo</button>
+            <button class="btn-details" onclick="alert('Project details coming soon!')">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card project-card tilt-card reveal" data-delay="200">
+        <div class="project-img">
+          <img src="assets/images/project-3.png" alt="Food Ordering Platform" loading="lazy" />
+          <div class="project-img-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Food Ordering Platform</h3>
+          <p class="project-desc">Restaurant app with live delivery tracking and secure payments.</p>
+          <div class="project-tags">
+            <span class="project-tag">React Native</span>
+            <span class="project-tag">Firebase</span>
+            <span class="project-tag">Stripe</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-demo" onclick="alert('Live demo coming soon!')">Live Demo</button>
+            <button class="btn-details" onclick="alert('Project details coming soon!')">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card project-card tilt-card reveal" data-delay="300">
+        <div class="project-img">
+          <img src="assets/images/project-4.png" alt="School Management System" loading="lazy" />
+          <div class="project-img-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">School Management System</h3>
+          <p class="project-desc">Educational admin panel for attendance, grades, and communication.</p>
+          <div class="project-tags">
+            <span class="project-tag">Vue</span>
+            <span class="project-tag">Express</span>
+            <span class="project-tag">MySQL</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-demo" onclick="alert('Live demo coming soon!')">Live Demo</button>
+            <button class="btn-details" onclick="alert('Project details coming soon!')">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card project-card tilt-card reveal" data-delay="400">
+        <div class="project-img">
+          <img src="assets/images/project-5.png" alt="Real Estate Website" loading="lazy" />
+          <div class="project-img-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Real Estate Website</h3>
+          <p class="project-desc">Luxury property listings with 3D tours and map integration.</p>
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Three.js</span>
+            <span class="project-tag">AWS</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-demo" onclick="alert('Live demo coming soon!')">Live Demo</button>
+            <button class="btn-details" onclick="alert('Project details coming soon!')">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card project-card tilt-card reveal" data-delay="500">
+        <div class="project-img">
+          <img src="assets/images/project-6.png" alt="Truck Accessories Store" loading="lazy" />
+          <div class="project-img-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Truck Accessories Store</h3>
+          <p class="project-desc">Heavy-duty automotive e-commerce with custom part configurator.</p>
+          <div class="project-tags">
+            <span class="project-tag">Shopify</span>
+            <span class="project-tag">React</span>
+            <span class="project-tag">Node.js</span>
+          </div>
+          <div class="project-btns">
+            <button class="btn-demo" onclick="alert('Live demo coming soon!')">Live Demo</button>
+            <button class="btn-details" onclick="alert('Project details coming soon!')">Details</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     TECH STACK
+     ================================================ -->
+<section class="section" id="tech">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text">Technologies I Work With</h2>
+      <p>Leveraging the latest tools to build robust, scalable, and secure applications.</p>
+    </div>
+
+    <div class="tech-grid">
+      <div class="glass-card tech-card reveal" data-delay="0" style="--hover-color:#E34F26">
+        <i class="devicon-html5-plain colored tech-icon"></i>
+        <span class="tech-name">HTML5</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="60" style="--hover-color:#1572B6">
+        <i class="devicon-css3-plain colored tech-icon"></i>
+        <span class="tech-name">CSS3</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="120" style="--hover-color:#F7DF1E">
+        <i class="devicon-javascript-plain colored tech-icon"></i>
+        <span class="tech-name">JavaScript</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="180" style="--hover-color:#61DAFB">
+        <i class="devicon-react-plain colored tech-icon"></i>
+        <span class="tech-name">React</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="240" style="--hover-color:#339933">
+        <i class="devicon-nodejs-plain colored tech-icon"></i>
+        <span class="tech-name">Node.js</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="300">
+        <i class="devicon-express-original colored tech-icon" style="color:#fff;"></i>
+        <span class="tech-name">Express.js</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="360" style="--hover-color:#47A248">
+        <i class="devicon-mongodb-plain colored tech-icon"></i>
+        <span class="tech-name">MongoDB</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="420" style="--hover-color:#4479A1">
+        <i class="devicon-mysql-plain colored tech-icon"></i>
+        <span class="tech-name">MySQL</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="480" style="--hover-color:#F05032">
+        <i class="devicon-git-plain colored tech-icon"></i>
+        <span class="tech-name">Git</span>
+      </div>
+      <div class="glass-card tech-card reveal" data-delay="540" style="--hover-color:#06B6D4">
+        <i class="devicon-tailwindcss-plain colored tech-icon"></i>
+        <span class="tech-name">Tailwind CSS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     PROCESS SECTION
+     ================================================ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text-purple text-secondary">How I Work</h2>
+      <p>A streamlined process to ensure premium quality delivery every time.</p>
+    </div>
+
+    <div class="process-wrap">
+      <div class="process-line"></div>
+
+      <div class="process-step reveal" data-delay="0">
+        <div class="glass-card process-content" style="flex:1;">
+          <h3>Requirement Discussion</h3>
+          <p>Understanding your vision, goals, and specific project requirements.</p>
+        </div>
+        <div class="process-num">01</div>
+        <div class="process-filler"></div>
+      </div>
+
+      <div class="process-step reveal" data-delay="100" style="flex-direction:row-reverse;">
+        <div class="glass-card process-content" style="flex:1;">
+          <h3>Planning &amp; Design</h3>
+          <p>Creating wireframes, UI/UX designs, and technical architecture.</p>
+        </div>
+        <div class="process-num">02</div>
+        <div class="process-filler"></div>
+      </div>
+
+      <div class="process-step reveal" data-delay="200">
+        <div class="glass-card process-content" style="flex:1;">
+          <h3>Development</h3>
+          <p>Writing clean, efficient, and scalable code to bring the design to life.</p>
+        </div>
+        <div class="process-num">03</div>
+        <div class="process-filler"></div>
+      </div>
+
+      <div class="process-step reveal" data-delay="300" style="flex-direction:row-reverse;">
+        <div class="glass-card process-content" style="flex:1;">
+          <h3>Testing</h3>
+          <p>Rigorous quality assurance, bug fixing, and performance optimization.</p>
+        </div>
+        <div class="process-num">04</div>
+        <div class="process-filler"></div>
+      </div>
+
+      <div class="process-step reveal" data-delay="400">
+        <div class="glass-card process-content" style="flex:1;">
+          <h3>Launch &amp; Support</h3>
+          <p>Deployment to production and ongoing maintenance and updates.</p>
+        </div>
+        <div class="process-num">05</div>
+        <div class="process-filler"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     WHY CHOOSE ME
+     ================================================ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text">Why Choose Me?</h2>
+      <p>Delivering value beyond just code. Here's what you get when you hire me.</p>
+    </div>
+    <div class="why-grid">
+      <div class="glass-card why-card reveal" data-delay="0">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">Fast Delivery</span>
+      </div>
+      <div class="glass-card why-card reveal" data-delay="80">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">Modern UI/UX</span>
+      </div>
+      <div class="glass-card why-card reveal" data-delay="160">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">SEO Friendly</span>
+      </div>
+      <div class="glass-card why-card reveal" data-delay="240">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">Mobile Responsive</span>
+      </div>
+      <div class="glass-card why-card reveal" data-delay="320">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">Affordable Pricing</span>
+      </div>
+      <div class="glass-card why-card reveal" data-delay="400">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">Lifetime Guidance</span>
+      </div>
+      <div class="glass-card why-card reveal" data-delay="480">
+        <svg class="why-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+        <span class="why-label">Professional Support</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     PRICING PLANS
+     ================================================ -->
+<section class="section section-alt" id="pricing">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text">Pricing Plans</h2>
+      <p>Transparent pricing for premium digital services.</p>
+    </div>
+
+    <!-- Toggle -->
+    <div class="toggle-wrap reveal">
+      <span id="pricing-label-mo" class="toggle-label active">Monthly</span>
+      <div class="toggle-switch" id="pricing-toggle">
+        <div class="toggle-thumb" id="pricing-toggle-thumb"></div>
+      </div>
+      <span id="pricing-label-yr" class="toggle-label inactive">Yearly <span class="save-badge">Save 20%</span></span>
+    </div>
+
+    <div class="pricing-grid">
+
+      <div class="glass-card pricing-card reveal" data-delay="0">
+        <h3 class="pricing-name">Basic</h3>
+        <p class="pricing-desc">Perfect for personal portfolios.</p>
+        <div class="pricing-price">
+          <span class="amount price-monthly">&#8377;2,999</span>
+          <span class="amount price-yearly" style="display:none">&#8377;28,788</span>
+          <span class="period">/project</span>
+        </div>
+        <ul class="pricing-features">
+          <li>Single Page Website</li>
+          <li>Mobile Responsive</li>
+          <li>Contact Form</li>
+          <li>Basic Design</li>
+        </ul>
+        <button class="pricing-btn outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+
+      <div class="glass-card pricing-card reveal" data-delay="100">
+        <h3 class="pricing-name">Standard</h3>
+        <p class="pricing-desc">Great for small businesses.</p>
+        <div class="pricing-price">
+          <span class="amount price-monthly">&#8377;5,999</span>
+          <span class="amount price-yearly" style="display:none">&#8377;57,588</span>
+          <span class="period">/project</span>
+        </div>
+        <ul class="pricing-features">
+          <li>5 Pages Website</li>
+          <li>Premium UI</li>
+          <li>WhatsApp Integration</li>
+          <li>Basic SEO</li>
+        </ul>
+        <button class="pricing-btn outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+
+      <div class="glass-card pricing-card popular reveal" data-delay="200">
+        <div class="pricing-badge">Most Popular</div>
+        <h3 class="pricing-name">Premium</h3>
+        <p class="pricing-desc">For growing companies.</p>
+        <div class="pricing-price">
+          <span class="amount price-monthly">&#8377;11,999</span>
+          <span class="amount price-yearly" style="display:none">&#8377;1,15,188</span>
+          <span class="period">/project</span>
+        </div>
+        <ul class="pricing-features">
+          <li>Full Stack Website</li>
+          <li>Database Integration</li>
+          <li>Admin Panel</li>
+          <li>AI Chatbot</li>
+          <li>Advanced Animations</li>
+        </ul>
+        <button class="pricing-btn filled" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+
+      <div class="glass-card pricing-card reveal" data-delay="300">
+        <h3 class="pricing-name">Ultimate</h3>
+        <p class="pricing-desc">Enterprise grade solutions.</p>
+        <div class="pricing-price">
+          <span class="amount price-monthly">&#8377;24,999</span>
+          <span class="amount price-yearly" style="display:none">&#8377;2,39,988</span>
+          <span class="period">/project</span>
+        </div>
+        <ul class="pricing-features">
+          <li>Custom Web Application</li>
+          <li>E-Commerce Website</li>
+          <li>Payment Gateway</li>
+          <li>AI Features</li>
+          <li>Premium Support</li>
+        </ul>
+        <button class="pricing-btn outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     MAINTENANCE PLANS
+     ================================================ -->
+<section class="section" id="maintenance">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text-purple text-secondary">Maintenance Plans</h2>
+      <p>Keep your digital assets running smoothly with dedicated maintenance.</p>
+    </div>
+
+    <!-- Toggle -->
+    <div class="toggle-wrap reveal" style="margin-bottom:3rem;">
+      <span id="maint-label-mo" class="toggle-label active">Monthly</span>
+      <div class="toggle-switch" id="maint-toggle">
+        <div class="toggle-thumb"></div>
+      </div>
+      <span id="maint-label-yr" class="toggle-label inactive">Yearly <span class="save-badge">Save 15%</span></span>
+    </div>
+
+    <div class="maint-grid">
+
+      <div class="glass-card maint-card reveal" data-delay="0">
+        <h3 class="maint-name">Starter</h3>
+        <p class="maint-desc">Basic site updates &amp; monitoring.</p>
+        <div class="maint-price">
+          <span class="amount maint-price-monthly">&#8377;499</span>
+          <span class="amount maint-price-yearly" style="display:none">&#8377;4,999</span>
+          <span class="period maint-period">/mo</span>
+        </div>
+        <button class="maint-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Select Plan</button>
+      </div>
+
+      <div class="glass-card maint-card reveal" data-delay="100">
+        <h3 class="maint-name">Business</h3>
+        <p class="maint-desc">Regular content updates &amp; security.</p>
+        <div class="maint-price">
+          <span class="amount maint-price-monthly">&#8377;999</span>
+          <span class="amount maint-price-yearly" style="display:none">&#8377;9,999</span>
+          <span class="period maint-period">/mo</span>
+        </div>
+        <button class="maint-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Select Plan</button>
+      </div>
+
+      <div class="glass-card maint-card reveal" data-delay="200">
+        <h3 class="maint-name">Premium</h3>
+        <p class="maint-desc">Priority support &amp; automated backups.</p>
+        <div class="maint-price">
+          <span class="amount maint-price-monthly">&#8377;1,999</span>
+          <span class="amount maint-price-yearly" style="display:none">&#8377;19,999</span>
+          <span class="period maint-period">/mo</span>
+        </div>
+        <button class="maint-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Select Plan</button>
+      </div>
+
+      <div class="glass-card maint-card reveal" data-delay="300">
+        <h3 class="maint-name">Enterprise</h3>
+        <p class="maint-desc">Full dedicated maintenance &amp; SLA.</p>
+        <div class="maint-price">
+          <span class="amount maint-price-monthly">&#8377;4,999</span>
+          <span class="amount maint-price-yearly" style="display:none">&#8377;49,999</span>
+          <span class="period maint-period">/mo</span>
+        </div>
+        <button class="maint-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Select Plan</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     TESTIMONIALS
+     ================================================ -->
+<section class="section section-alt" id="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text">Client Testimonials</h2>
+      <p>Don't just take my word for it. Here is what my clients have to say.</p>
+    </div>
+
+    <div class="testimonials-wrap reveal">
+      <div class="testimonials-slider">
+        <div class="testimonials-track" id="testimonials-track">
+
+          <div class="testimonial-slide">
+            <div class="glass-card testimonial-card">
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"Sai built my e-commerce store in record time. The design is stunning and sales have increased 300%."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">AS</div>
+                <div>
+                  <div class="testimonial-name">Arjun Sharma</div>
+                  <div class="testimonial-role">CEO, E-Commerce Store</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="glass-card testimonial-card">
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"Absolutely professional work. My business website looks like it was built by a top agency."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">PM</div>
+                <div>
+                  <div class="testimonial-name">Priya Mehta</div>
+                  <div class="testimonial-role">Founder, Agency</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="glass-card testimonial-card">
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"Fast delivery, amazing animations, and the SEO results were incredible. Highly recommend!"</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">RV</div>
+                <div>
+                  <div class="testimonial-name">Rahul Verma</div>
+                  <div class="testimonial-role">Marketing Director</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="glass-card testimonial-card">
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"Sai understood my vision perfectly and delivered beyond expectations. Worth every rupee."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">SP</div>
+                <div>
+                  <div class="testimonial-name">Sneha Patil</div>
+                  <div class="testimonial-role">Startup Founder</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="glass-card testimonial-card">
+              <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="testimonial-text">"The app Sai built for my restaurant has transformed my business. Clients love the UI."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">VJ</div>
+                <div>
+                  <div class="testimonial-name">Vikram Joshi</div>
+                  <div class="testimonial-role">Restaurant Owner</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="slider-controls">
+        <button class="slider-btn" id="slider-prev">&#8592;</button>
+        <button class="slider-btn" id="slider-next">&#8594;</button>
+      </div>
+      <div class="slider-dots">
+        <button class="slider-dot active"></button>
+        <button class="slider-dot"></button>
+        <button class="slider-dot"></button>
+        <button class="slider-dot"></button>
+        <button class="slider-dot"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     PROJECT REQUEST FORM
+     ================================================ -->
+<section class="section">
+  <div class="container">
+    <div class="form-wrap glass-card">
+      <div class="section-header reveal" style="margin-bottom:2.5rem;">
+        <h2 class="neon-text">Start A Project</h2>
+        <p>Fill out the form below to get a custom quote for your project.</p>
+      </div>
+
+      <form id="project-form">
+        <div class="form-grid-2 reveal" data-delay="0">
+          <div class="form-group">
+            <label class="form-label" for="fullName">Full Name</label>
+            <input class="form-input" type="text" id="fullName" name="fullName" placeholder="Your full name" />
+            <span class="form-error" id="err-fullName"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="mobile">Mobile Number</label>
+            <input class="form-input" type="tel" id="mobile" name="mobile" placeholder="+91 00000 00000" />
+            <span class="form-error" id="err-mobile"></span>
+          </div>
+        </div>
+
+        <div class="form-grid-2 reveal" data-delay="100" style="margin-top:1.5rem;">
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="you@email.com" />
+            <span class="form-error" id="err-email"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="businessName">Business Name <span style="color:var(--text-muted);font-weight:400;">(Optional)</span></label>
+            <input class="form-input" type="text" id="businessName" name="businessName" placeholder="Your company name" />
+          </div>
+        </div>
+
+        <div class="form-grid-3 reveal" data-delay="200" style="margin-top:1.5rem;">
+          <div class="form-group">
+            <label class="form-label" for="projectType">Project Type</label>
+            <select class="form-select" id="projectType" name="projectType">
+              <option value="">Select Type</option>
+              <option value="Web Development">Web Development</option>
+              <option value="App Development">App Development</option>
+              <option value="E-Commerce">E-Commerce</option>
+              <option value="Full Stack">Full Stack</option>
+              <option value="UI/UX Design">UI/UX Design</option>
+              <option value="Game Poster">Game Poster Design</option>
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="SEO">SEO Optimization</option>
+            </select>
+            <span class="form-error" id="err-projectType"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="budget">Budget Range</label>
+            <select class="form-select" id="budget" name="budget">
+              <option value="">Select Budget</option>
+              <option value="&#8377;2,999-&#8377;5,999">&#8377;2,999 - &#8377;5,999</option>
+              <option value="&#8377;5,999-&#8377;11,999">&#8377;5,999 - &#8377;11,999</option>
+              <option value="&#8377;11,999-&#8377;24,999">&#8377;11,999 - &#8377;24,999</option>
+              <option value="&#8377;24,999+">&#8377;24,999+</option>
+            </select>
+            <span class="form-error" id="err-budget"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="deliveryTime">Expected Delivery</label>
+            <select class="form-select" id="deliveryTime" name="deliveryTime">
+              <option value="">Select Time</option>
+              <option value="1 Week">1 Week</option>
+              <option value="2 Weeks">2 Weeks</option>
+              <option value="1 Month">1 Month</option>
+              <option value="2 Months">2 Months</option>
+              <option value="3+ Months">3+ Months</option>
+            </select>
+            <span class="form-error" id="err-deliveryTime"></span>
+          </div>
+        </div>
+
+        <div class="form-group reveal" data-delay="300" style="margin-top:1.5rem;">
+          <label class="form-label" for="description">Project Description</label>
+          <textarea class="form-textarea" id="description" name="description" rows="4" placeholder="Describe your project, goals, and any specific requirements..."></textarea>
+          <span class="form-error" id="err-description"></span>
+        </div>
+
+        <div class="reveal" data-delay="400" style="margin-top:1.5rem;">
+          <button type="submit" class="form-submit">Submit Request</button>
+        </div>
+      </form>
+
+      <!-- Success Message -->
+      <div class="form-success" id="form-success">
+        <div class="form-success-icon">&#10003;</div>
+        <h3>Request Submitted!</h3>
+        <p>We'll contact you within 24 hours. Redirecting you to WhatsApp...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     ANALYTICS SECTION
+     ================================================ -->
+<section style="padding:5rem 0; position:relative; z-index:10; background:rgba(0,0,0,0.55); border-top:1px solid rgba(var(--primary-rgb),0.18); border-bottom:1px solid rgba(var(--primary-rgb),0.18);">
+  <div class="container">
+    <div class="section-header reveal" style="margin-bottom:3rem;">
+      <h2 class="neon-text" style="font-size:clamp(1.4rem,3vw,2.2rem);">Portfolio Analytics</h2>
+      <p style="font-size:0.88rem;">Real-time engagement metrics for this month.</p>
+    </div>
+    <div class="analytics-grid">
+      <div class="glass-card analytics-card reveal" data-delay="0">
+        <svg class="analytics-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+        <div class="analytics-val" data-count="1247" data-suffix="+">0+</div>
+        <div class="analytics-label">Visitors This Month</div>
+      </div>
+      <div class="glass-card analytics-card reveal" data-delay="100">
+        <svg class="analytics-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3a2 2 0 0 0-2 2m0 14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2M21 5a2 2 0 0 0-2-2H5"/><path d="m9 9 3 3-3 3"/><path d="m15 15-3-3 3-3"/></svg>
+        <div class="analytics-val" data-count="3856" data-suffix="+">0+</div>
+        <div class="analytics-label">Total Page Views</div>
+      </div>
+      <div class="glass-card analytics-card reveal" data-delay="200">
+        <svg class="analytics-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+        <div class="analytics-val" data-count="42" data-suffix="+">0+</div>
+        <div class="analytics-label">Project Inquiries</div>
+      </div>
+      <div class="glass-card analytics-card reveal" data-delay="300">
+        <svg class="analytics-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        <div class="analytics-val" data-count="89" data-suffix="+">0+</div>
+        <div class="analytics-label">WhatsApp Clicks</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================
+     CONTACT + FOOTER
+     ================================================ -->
+<footer id="contact" style="padding:6rem 0 2rem; position:relative; z-index:10; background:#000; border-top:1px solid rgba(var(--primary-rgb),0.25);">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="neon-text">Get In Touch</h2>
+      <p>Ready to build something extraordinary? Let's discuss your next premium digital project.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Info -->
+      <div>
+        <a href="https://wa.me/919579192909" target="_blank" rel="noreferrer" class="glass contact-info-card reveal" data-delay="0">
+          <div class="contact-icon ci-wa">WA</div>
+          <div>
+            <div class="contact-info-label">WhatsApp</div>
+            <div class="contact-info-val">+91 95791 92909</div>
+          </div>
+        </a>
+        <a href="mailto:saibhandari009@gmail.com" class="glass contact-info-card reveal" data-delay="100">
+          <div class="contact-icon ci-em">@</div>
+          <div>
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-val">saibhandari009@gmail.com</div>
+          </div>
+        </a>
+        <div class="glass contact-info-card reveal" data-delay="200">
+          <div class="contact-icon ci-lo">&#128205;</div>
+          <div>
+            <div class="contact-info-label">Location</div>
+            <div class="contact-info-val">Shrirampur, Maharashtra, India</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="glass-card contact-form-box reveal" data-delay="100">
+        <h3 style="font-family:var(--font-heading); font-size:1.3rem; color:#fff; margin-bottom:1.5rem; letter-spacing:1px;">Send Message</h3>
+        <form id="contact-form">
+          <input class="contact-input" type="text" name="name" placeholder="Your Name" required />
+          <input class="contact-input" type="email" name="email" placeholder="Your Email" required />
+          <input class="contact-input" type="text" name="subject" placeholder="Subject" required />
+          <textarea class="contact-input" name="message" rows="4" placeholder="Message..." style="resize:none;" required></textarea>
+          <button type="submit" class="contact-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Bar -->
+    <div class="footer-bottom">
+      <div class="footer-brand">DS DEVELOPER SAI &copy; 2024 All Rights Reserved</div>
+      <div class="social-links">
+        <a href="#" class="social-link" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" class="social-link" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="#" class="social-link" title="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="social-link" title="YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-tagline">FAST DELIVERY &bull; BEST QUALITY &bull; AFFORDABLE PRICE &bull; 24/7 SUPPORT</div>
+  </div>
+</footer>
+
+<!-- ================================================
+     FLOATING BUTTONS
+     ================================================ -->
+<div class="fab-group">
+  <button class="fab fab-top" id="fab-top" title="Back to top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+  <button class="fab fab-chat" id="fab-chat" title="Chat with Sai AI" aria-label="Open chatbot">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2m16 0h2M12 16v4m-2 0h4"/></svg>
+  </button>
+  <a class="fab fab-wa" href="https://wa.me/919579192909" target="_blank" rel="noreferrer" title="WhatsApp" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+</div>
+
+<!-- Theme Gear -->
+<button class="fab-gear" id="fab-gear" title="Change theme" aria-label="Open theme customizer">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="animation:spin 5s linear infinite;"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+</button>
+
+<!-- Theme Panel -->
+<div class="glass-card theme-panel" id="theme-panel">
+  <div class="theme-panel-header">
+    <span class="theme-panel-title">Theme Select</span>
+    <button class="theme-panel-close" id="theme-panel-close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </div>
+  <button class="theme-option" data-theme="dark-cyberpunk">
+    <div class="theme-swatch" style="background:#00d4ff;"></div> Dark Cyberpunk
+  </button>
+  <button class="theme-option" data-theme="neon-blue">
+    <div class="theme-swatch" style="background:#3b82f6;"></div> Neon Blue
+  </button>
+  <button class="theme-option" data-theme="neon-purple">
+    <div class="theme-swatch" style="background:#a855f7;"></div> Neon Purple
+  </button>
+  <button class="theme-option" data-theme="matrix-green">
+    <div class="theme-swatch" style="background:#22c55e;"></div> Matrix Green
+  </button>
+  <button class="theme-option" data-theme="neon-red">
+    <div class="theme-swatch" style="background:#ef4444;"></div> Neon Red
+  </button>
+  <button class="theme-option" data-theme="light-mode">
+    <div class="theme-swatch" style="background:#e2e8f0; border-color:#999;"></div> Light Mode
+  </button>
+</div>
+
+<!-- ================================================
+     AI CHATBOT
+     ================================================ -->
+<div class="glass-card chatbot-window" id="chatbot-window">
+  <div class="chatbot-header">
+    <div class="chatbot-avatar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2m16 0h2M12 16v4m-2 0h4"/></svg>
+      <div class="chatbot-online"></div>
+    </div>
+    <div>
+      <div class="chatbot-name">Sai AI Assistant</div>
+      <div class="chatbot-status">Online</div>
+    </div>
+  </div>
+  <div class="chatbot-msgs" id="chatbot-msgs">
+    <div class="msg-row">
+      <div class="msg-bubble msg-bot">Hi! I'm Sai AI Assistant. How can I help you today?</div>
+    </div>
+    <div class="chatbot-quick" id="chatbot-quick-wrap">
+      <button class="quick-btn">Web Development</button>
+      <button class="quick-btn">App Development</button>
+      <button class="quick-btn">E-Commerce Website</button>
+      <button class="quick-btn">Digital Marketing</button>
+      <button class="quick-btn">SEO Services</button>
+      <button class="quick-btn">Contact Me</button>
+      <button class="quick-btn">Get Quote</button>
+    </div>
+  </div>
+  <div class="chatbot-input-row">
+    <input class="chatbot-input" id="chatbot-input" type="text" placeholder="Type a message..." />
+    <button class="chatbot-send" id="chatbot-send">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+    </button>
+  </div>
+</div>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
